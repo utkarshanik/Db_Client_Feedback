@@ -34,11 +34,11 @@ router.get('/details', async (req, res) => {
                     {
                         $project: {
                             _id: 0,
-                            avgOverall: { $multiply: ["$avgOverall", 10] },
-                            avgQuality: { $multiply: ["$avgQuality", 10] },
-                            avgTimeline: { $multiply: ["$avgTimeline", 10] },
-                            avgMoney: { $multiply: ["$avgMoney", 10] },
-                            avgSupport: { $multiply: ["$avgSupport", 10] }
+                            avgOverall: { $multiply: ["$avgOverall", 20] },
+                            avgQuality: { $multiply: ["$avgQuality", 20] },
+                            avgTimeline: { $multiply: ["$avgTimeline", 20] },
+                            avgMoney: { $multiply: ["$avgMoney", 20] },
+                            avgSupport: { $multiply: ["$avgSupport", 20] }
                         }
                     }
                 ],
