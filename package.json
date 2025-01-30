@@ -4,7 +4,10 @@
   "description": "stores custome feedback alon with credentials",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "build": "echo 'No build step for backend'",
+    "dev": "nodemon index.js"
   },
   "author": "Utkarsha",
   "license": "ISC",
